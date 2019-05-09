@@ -29,7 +29,7 @@ class CustomFreezer(Freezer):
                    "automatically, set this.")
 @click.option('--debug', is_flag=True)
 def main(archive, output_dir, no_browser, debug):
-    configure_app(app, archive, debug)
+    configure_app(app=app, archive=archive, channels=None, no_sidebar=False, no_external_references=False, debug=debug)
     # We need relative URLs, otherwise channel refs do not work
     app.config["FREEZER_RELATIVE_URLS"] = True
     # Use a custom subclass of Freezer which allows to overwrite
