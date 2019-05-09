@@ -10,8 +10,7 @@ as HTML (in channels)!
 
 ### 1) Grab your Slack team's export
 
-* Visit [https://yourslackteam.slack.com/services/export]
-(https://yourslackteam.slack.com/services/export) (*yourslackteam* should obviously be replaced with your **actual** Slack team)
+* Visit [https://yourslackteam.slack.com/services/export](https://yourslackteam.slack.com/services/export) (*yourslackteam* should obviously be replaced with your **actual** Slack team)
 * Create an export
 * Wait for it to complete
 * Refresh the page and download the export (.zip file) into whatever directory
