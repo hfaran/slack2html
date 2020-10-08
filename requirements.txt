@@ -1,4 +1,4 @@
-slack-export-viewer==0.9.0
+slack-export-viewer==1.0.4
 frozen-flask
 click
 flask
